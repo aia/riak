@@ -292,6 +292,7 @@ if [ 1 -eq $get_syscmds ]; then
     dump vmstat vmstat
     dump free free -m
     dump df df
+    dump df_i df -i
     dump dmesg dmesg
     dump mount mount
     dump sysctl sysctl -a
